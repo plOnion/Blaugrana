@@ -1,0 +1,498 @@
+
+.bar{
+  margin: 5px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: #deb500;
+  background: #66012b; /* Old browsers */
+  background: -moz-linear-gradient(left, #011e56 0%, #66012b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #011e56 0%,#66012b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #011e56 0%,#66012b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#011e56', endColorstr='#66012b',GradientType=1 ); /* IE6-9 */
+}
+
+.player{
+  position: absolute;
+  color: #fff;
+  background-Color: #011e56;
+  left: 0;
+  bottom: 25px;
+  display: flex;
+  justify-Content: space-around;
+  align-Items: center;
+  text-Align: center;
+  width: 100%;
+  padding: 5px 0;
+  overflow: hidden;
+}
+
+.player:hover{
+  background-color: #66012b;
+}
+
+.user_2442362736, .user_1386837630, .user_3786770656, .user_2659858505, .user_3461600902, .user_3062746077, .user_3237944812,
+.user_3516800557, .user_2560603185, .user_3790996468, .user_260747803, .user_2991050736, .user_3760337637, .user_3161321285,
+.user_3006816922, .user_4057745333, .user_2721854930, .user_2934371009, .user_3759874879, .user_1385268022, .user_1136865448,
+.user_1843254373, .user_1748107285, .user_2916754786, .user_2727039376, .user_1302060331{
+  height: 360px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  position: relative;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.user_2442362736 {
+  background-image: url(../src/img/2442362736.jpg);
+}
+
+.user_1386837630{
+  background-image: url(../src/img/1386837630.jpg);
+}
+
+.user_3786770656{
+  background-image: url(../src/img/3786770656.jpg);
+}
+
+.user_2659858505{
+  background-image: url(../src/img/2659858505.jpg);
+}
+
+.user_3237944812{
+  background-image: url(../src/img/3237944812.jpg);
+}
+
+.user_3790996468{
+  background-image: url(../src/img/3790996468.jpg);
+}
+
+.user_260747803{
+  background-image: url(../src/img/260747803.jpg);
+}
+
+.user_2991050736{
+  background-image: url(../src/img/2991050736.jpg);
+}
+
+.user_3760337637{
+  background-image: url(../src/img/3760337637.jpg);
+}
+
+.user_3161321285{
+  background-image: url(../src/img/3161321285.jpg);
+}
+
+.user_1302060331{
+  background-image: url(../src/img/1302060331.jpg);
+}
+
+.user_3006816922{
+  background-image: url(../src/img/3006816922.jpg);
+}
+
+.user_4057745333{
+  background-image: url(../src/img/4057745333.jpg);
+}
+
+.user_2721854930{
+  background-image: url(../src/img/2721854930.jpg);
+}
+
+.user_2934371009{
+  background-image: url(../src/img/2934371009.jpg);
+}
+
+.user_3759874879{
+  background-image: url(../src/img/3759874879.jpg);
+}
+
+.user_1385268022{
+  background-image: url(../src/img/1385268022.jpg);
+}
+
+.user_1136865448{
+  background-image: url(../src/img/1136865448.jpg);
+}
+
+.user_1843254373{
+  background-image: url(../src/img/1843254373.jpg);
+}
+
+.user_1748107285{
+  background-image: url(../src/img/1748107285.jpg);
+}
+
+.user_2916754786{
+  background-image: url(../src/img/2916754786.jpg);
+}
+
+.user_2727039376{
+  background-image: url(../src/img/2727039376.jpg);
+}
+
+.coach{
+  height: 360px;
+  width: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  position: relative;
+  background-image: url(../src/img/96394099.jpg);
+}
+
+.player_bar{
+  background: #deb500;
+  color: #66012b;
+  width: 75%;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.player_bar_data{
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+
+/******************************************************************/
+.main_container{
+  background: #66012b; /* Old browsers */
+  background: -moz-linear-gradient(left, #66012b 0%, #011e56 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #66012b 0%,#011e56 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #66012b 0%,#011e56 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66012b', endColorstr='#011e56',GradientType=1 ); /* IE6-9 */
+  width: 100%;
+}
+
+/******************************************************************/
+
+header {
+ position: sticky;
+  top: 0;
+  z-index: 99;
+  background: #66012b; /* Old browsers */
+  background: -moz-linear-gradient(left, #66012b 0%, #011e56 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #66012b 0%,#011e56 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #66012b 0%,#011e56 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66012b', endColorstr='#011e56',GradientType=1 ); /* IE6-9 */
+
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media all and (min-width: 740px) {
+  .header-container {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+  }
+}
+
+.logo__trigger {
+  height: 50px;
+  display: block;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 2.75em;
+  text-transform: uppercase;
+  background-image: url("../src/img/fc_barcelona.png");
+  background-repeat:no-repeat;
+  -webkit-background-size:contain;
+  -moz-background-size:contain;
+  -o-background-size:contain;
+  background-size:contain;
+
+}
+
+@media all and (max-width: 739px) {
+  .logo__trigger {
+    background-position:center;
+  }
+}
+
+.logo{
+  width: 100%;
+}
+
+nav {
+  align-items: center;
+}
+
+nav > ul {
+  display: none;
+  justify-content: center;
+  color: #fff;
+}
+
+nav > ul > li {
+  padding: 10px 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  padding: 10px 15px;
+  position: relative;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/************************************************************ SECTION*/
+
+
+
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+@media all and (min-width: 740px) {
+  section {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    padding-top: 0;
+  }
+}
+
+/********************************************************** MAIN*/
+main {
+  /*width: 70%;*/
+}
+
+.match{
+  margin: 0 auto;
+}
+
+.match_bar{
+  width: 50%;
+}
+
+/********************************************************** ASIDE*/
+
+aside {
+  width: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.team{
+  font-size: 20px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.score{
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: center;
+}
+
+.Barcelona, .Betis, .team_7106 {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  text-align: center;
+}
+
+.Barcelona{
+  background-image: url("./img/logo_FCB.png");
+}
+
+.Betis{
+  background-image: url("./img/betis.png");
+}
+
+.team_7106{
+  background-image: url("./img/AtleticoMadrid.png");
+ }
+
+/********************************************************** FOOTER*/
+
+footer {
+  color: #939393;
+  font-family: sans-serif;
+}
+
+.footer_container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media all and (min-width: 740px) {
+  .footer_container {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.footer_copy {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 15px 10px 0;
+  font-size: 1em;
+}
+
+@media all and (min-width: 740px) {
+  .footer_copy {
+    width: 65%;
+  }
+}
+
+.foot_logo{
+  width: 100%;
+  text-align: center;
+}
+
+@media all and (min-width: 740px) {
+  .foot_logo {
+    width: 35%;
+    text-align: right;
+  }
+}
+
+/********************************************** TABLE*/
+
+table.blauGrana {
+  border: 4px solid #deb500;
+  background-color: #66012B;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+table.blauGrana td, table.blauGrana th {
+  border: 1px solid #deb500;
+  padding: 5px 2px;
+}
+table.blauGrana tbody td {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+table.blauGrana tr:nth-child(even) {
+  background: #011E56;
+}
+table.blauGrana thead {
+  background: #deb500;
+}
+table.blauGrana thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/********************************************** MAIN*/
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media all and (min-width: 740px) {
+  main {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.main_slider {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 15px 10px 0;
+  font-size: 1em;
+}
+
+@media all and (min-width: 740px) {
+  .main_slider {
+    width: 65%;
+  }
+}
+
+aside{
+  width: 100%;
+  text-align: center;
+
+}
+
+@media all and (min-width: 740px) {
+  aside{
+    /*width: 35%;*/
+    /*text-align: right;*/
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+}
