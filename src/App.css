@@ -263,12 +263,6 @@ nav > ul {
   color: #fff;
 }
 
-/*nav > ul > li {*/
-  /*padding: 10px 10px;*/
-  /*font-size: 16px;*/
-  /*text-transform: uppercase;*/
-/*}*/
-
 nav ul {
   list-style: none;
   padding: 0;
@@ -342,11 +336,20 @@ main {
 /********************************************************** ASIDE*/
 
 aside {
-  width: 30%;
+  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+@media all and (min-width: 740px) {
+  aside{
+    width: 30%;
+    display: flex;
+    position: sticky;
+    top: 0;
+  }
 }
 
 .team{
@@ -400,7 +403,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column-reverse;
   text-align: center;
@@ -478,7 +481,7 @@ table.blauGrana thead th {
 /********************************************** MAIN*/
 
 main {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 25px;
   display: flex;
@@ -489,6 +492,7 @@ main {
 
 @media all and (min-width: 740px) {
   main {
+    width: 70%;
     display: flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -500,30 +504,16 @@ main {
 
 .main_slider {
   width: 100%;
-  margin: 0 auto;
-  padding: 10px 15px 10px 0;
-  font-size: 1em;
 }
 
 @media all and (min-width: 740px) {
   .main_slider {
-    width: 65%;
+    /*width: 70%;*/
+    position: relative;
+    /*left: -110px;*/
   }
 }
 
-aside{
-  width: 30%;
-  text-align: center;
-
-}
-
-@media all and (min-width: 740px) {
-  aside{
-    /*width: 35%;*/
-    /*text-align: right;*/
-    display: flex;
-    position: sticky;
-    top: 0;
-    /*z-index: 99;*/
-  }
+.carousel-main img{
+  width: 100%;
 }
