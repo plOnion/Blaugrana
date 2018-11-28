@@ -1,35 +1,23 @@
-import React from "react";
-import Slider from "react-slick";
-import slide1 from "./img/slide1.jpg";
-import slide2 from "./img/slide2.jpg";
-import slide3 from "./img/slide3.png";
+import React from 'react';
+import Carousel from 'react-image-carousel';
 
 class SimpleSlider extends React.Component {
+
     render() {
-        var settings = {
-            dots: true,
-            infinite: true,
-            autoplay: true,
-            accessibility: false,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            adaptiveHeight: 1,
-            arrows: 0,
-        };
+        let images = [
+            './img/slide1.jpg',
+            './img/slide2.jpg',
+            './img/slide3.png',
+        ]
+
         return (
-            <Slider {...settings}>
-                <div>
-                    <img src={slide1} alt={"slide1"}/>
-                </div>
-                <div>
-                    <img src={slide2} alt={"slide1"}/>
-                </div>
-                <div>
-                    <img src={slide3} alt={"slide1"}/>
-                </div>
-            </Slider>
-        );
+            <div className="my-carousel">
+                <Carousel images={images}
+                          thumb={true}
+                          loop={true}
+                          autoplay={3000}/>
+            </div>
+        )
     }
 }
 

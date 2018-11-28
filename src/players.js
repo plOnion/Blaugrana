@@ -54,12 +54,12 @@ class Players extends React.Component{
 
         return ( <div>
                 <div className={"bar"}>PLAYERS</div>
-                <div style={{display: "flex", flexWrap: "wrap", justifyContent: "space-between", margin: "0 auto", padding: "10px"}}>
+                <div style={{display: "flex", flexWrap: "wrap", justifyContent: "space-around", margin: "0 auto", padding: "10px"}}>
 
                     {allPlayers.map(players => {
                         return (
                             <Link to={`/players/${players.player_key}`} style={{width: "270px" }}>
-                            <div key={players.player_key} className={"user_" + players.player_key}>
+                            <div key={players.player_key} className={"hov user_" + players.player_key}>
                                 <div className={"player"}>
                                     <div style={{width: "20%", borderRight: "1px solid #eee", fontSize: "22px", fontWeight: "bold"}}>{players.player_number}</div>
                                     <div style={{width: "80%"}}><span style={{fontWeight: "bold"}}>{players.player_name}</span><br/>

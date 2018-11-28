@@ -42,10 +42,9 @@
   background-position: center;
   margin: 5px;
   position: relative;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: width 0.2s, height 0.2s; /* Safari */
+  transition: width 0.2s, height 0.2s;
+  transition-timing-function: ease-in
 }
 
 .user_2442362736 {
@@ -145,6 +144,24 @@
   margin: 5px;
   position: relative;
   background-image: url(../src/img/96394099.jpg);
+  -webkit-transition: width 0.2s, height 0.2s; /* Safari */
+  transition: width 0.2s, height 0.2s;
+  transition-timing-function: ease-in;
+}
+
+.hov:hover{
+  z-index: 99;
+  border-radius: 5px;
+  height: 480px;
+  width: 130%;
+  left: -15%;
+  top: -70px;
+}
+.coach:hover{
+  z-index: 99;
+  border-radius: 5px;
+  height: 480px;
+  width: 40%;
 }
 
 .player_bar{
@@ -246,11 +263,11 @@ nav > ul {
   color: #fff;
 }
 
-nav > ul > li {
-  padding: 10px 10px;
-  font-size: 16px;
-  text-transform: uppercase;
-}
+/*nav > ul > li {*/
+  /*padding: 10px 10px;*/
+  /*font-size: 16px;*/
+  /*text-transform: uppercase;*/
+/*}*/
 
 nav ul {
   list-style: none;
@@ -259,14 +276,29 @@ nav ul {
 }
 
 nav ul li {
-  padding: 10px 15px;
+  padding: 10px 30px;
   position: relative;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+nav ul li a:visited{
+  background-color: #66012b;
+}
+
+nav ul li a:hover{
+  background: #deb500;
+  padding: 10px 15px;
+}
+
+nav ul li a:active{
+  background: #deb500;
 }
 
 /************************************************************ SECTION*/
@@ -290,7 +322,6 @@ section {
     display: -webkit-flex;
     display: -ms-flex;
     justify-content: space-between;
-    /*align-items: center;*/
     padding-top: 0;
   }
 }
@@ -447,7 +478,7 @@ table.blauGrana thead th {
 /********************************************** MAIN*/
 
 main {
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
   padding-bottom: 25px;
   display: flex;
@@ -481,7 +512,7 @@ main {
 }
 
 aside{
-  width: 100%;
+  width: 30%;
   text-align: center;
 
 }
@@ -493,6 +524,6 @@ aside{
     display: flex;
     position: sticky;
     top: 0;
-    z-index: 99;
+    /*z-index: 99;*/
   }
 }

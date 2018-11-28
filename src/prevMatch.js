@@ -72,7 +72,7 @@ class PrevMatch extends React.Component{
                 <div style={{marginTop: "15px"}}>
                     <div style={{display: "flex", justifyContent: "space-between"}}>
                         <div style={{display: "flex", alignItems: "center", flexDirection: "column", width: "30%"}}>
-                            <div className={prevMatch[0].event_home_team}> </div>
+                            <div className={"team_" + prevMatch[0].home_team_key}> </div>
                             <div className={"team"}> {prevMatch[0].event_home_team}</div>
                         </div>
                         <div className={"score"}>{prevMatch[0].event_final_result}</div>
