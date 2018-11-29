@@ -21,16 +21,26 @@ class NextMatch extends React.Component{
         let mm = today.getMonth()+1; //January is 0!
         let yyyy = today.getFullYear();
         let dd2 = dd + 3;
+        let mm2 = mm;
         if(dd<10) {
-            dd = '0'+dd
+            dd = '0' + dd
+        }
+
+        if (dd >= "28"){
+            dd2 = "3";
+            mm2 = mm + 1;
+        }
+
+        if (dd2<10) {
+            dd2 = '0' + dd2
         }
 
         if(mm<10) {
-            mm = '0'+mm
+            mm = '0' + mm
         }
 
 
-        fetch(`https://allsportsapi.com/api/football/?met=Fixtures&APIkey=${APIkey}&from=${yyyy}-${mm}-${dd}&to=${yyyy}-${mm}-(${dd2}`)
+        fetch(`https://allsportsapi.com/api/football/?met=Fixtures&APIkey=${APIkey}&leagueId=468&from=${yyyy}-${mm}-${dd}&to=${yyyy}-${mm2}-(${dd2}`)
             .then(resp => {
                 if(resp.ok)
                     return resp.json();
@@ -52,7 +62,7 @@ class NextMatch extends React.Component{
         if (!this.state.data) return <div>Ładuję...</div>;
 
         let matches = this.state.data.result;
-        var nextMatch = matches.filter ( function(match) {
+        let nextMatch = matches.filter ( function(match) {
             return match.home_team_key === "7105" || match.away_team_key === "7105";
         });
 

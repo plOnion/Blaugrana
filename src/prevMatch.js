@@ -19,16 +19,26 @@ class PrevMatch extends React.Component{
         let mm = today.getMonth()+1; //January is 0!
         let yyyy = today.getFullYear();
         let dd3 = dd - 15;
+        let mm3 = mm;
         if(dd<10) {
-            dd = '0'+dd
+            dd = '0' + dd
+        }
+
+        if (dd <= "13"){
+            dd3 = "15";
+            mm3 = mm - 1;
+        }
+
+        if (dd3<10) {
+            dd3 = '0' + dd3
         }
 
         if(mm<10) {
-            mm = '0'+mm
+            mm = '0' + mm
         }
 
 
-        fetch(`https://allsportsapi.com/api/football/?met=Fixtures&APIkey=${APIkey}&from=${yyyy}-${mm}-${dd3}&to=${yyyy}-${mm}-${dd}&leagueId=468`)
+        fetch(`https://allsportsapi.com/api/football/?met=Fixtures&APIkey=${APIkey}&from=${yyyy}-${mm3}-${dd3}&to=${yyyy}-${mm}-${dd}&leagueId=468`)
             .then(resp => {
                 if(resp.ok)
                     return resp.json();
@@ -49,10 +59,10 @@ class PrevMatch extends React.Component{
     render() {
         if (!this.state.data) return <div>Ładuję...</div>;
 
-
         let matches = this.state.data.result;
+
         let prevMatch = matches.filter ( function(match) {
-            return match.home_team_key === "7105" || match.away_team_key === "7105";
+            return match.event_key === "154542";
         });
 
         let cards = prevMatch[0].cards;

@@ -17,7 +17,7 @@ class Header extends React.Component{
                                 <ul className="main-menu">
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/team">Team</Link></li>
-                                    <li><Link to="/matches">Matches</Link></li>
+                                    <li><Link to="/matches-1819">Matches</Link></li>
                                     <li><Link to="/table">Table</Link></li>
                                 </ul>
                             </nav>

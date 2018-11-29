@@ -10,6 +10,13 @@
   background: -webkit-linear-gradient(left, #011e56 0%,#66012b 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, #011e56 0%,#66012b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#011e56', endColorstr='#66012b',GradientType=1 ); /* IE6-9 */
+  display: flex;
+  justify-content: space-around;
+}
+
+.bar a{
+  text-decoration: none;
+  color: #deb500;
 }
 
 .player{
@@ -508,9 +515,7 @@ main {
 
 @media all and (min-width: 740px) {
   .main_slider {
-    /*width: 70%;*/
     position: relative;
-    /*left: -110px;*/
   }
 }
 

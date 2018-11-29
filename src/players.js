@@ -50,7 +50,7 @@ class Players extends React.Component{
         allPlayers.splice(9,1);
         allPlayers.splice(21,2);
 
-        console.log(this.state.data.result[0].coaches);
+        // console.log(this.state.data.result[0].coaches);
 
         return ( <div>
                 <div className={"bar"}>PLAYERS</div>
