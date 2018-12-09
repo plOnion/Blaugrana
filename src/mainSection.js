@@ -14,8 +14,8 @@ class MainSection extends React.Component{
 
                     <aside style={{display: "flex"}}>
 
-                            <NextMatch/>
-                            <PrevMatch/>
+                            {/*<NextMatch/>*/}
+                            {/*<PrevMatch/>*/}
 
                     </aside>
                 </section>

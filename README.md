@@ -1,3 +1,6 @@
+!!! The trial access time of one of the API has expired, so some functionalities do not work !!!
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

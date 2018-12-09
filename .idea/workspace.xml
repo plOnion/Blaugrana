@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcc9058a-4149-4242-9f02-c5e3b7d16a01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matches-1819.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/matches-1819.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matches_1718.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/matches_1718.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nextMatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nextMatch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/players.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/players.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prevMatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/prevMatch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainSection.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -88,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nextMatch.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
@@ -157,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mainSection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="396">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -221,9 +214,9 @@
         <option value="$PROJECT_DIR$/src/players.js" />
         <option value="$PROJECT_DIR$/src/matches_1718.js" />
         <option value="$PROJECT_DIR$/src/matches-1819.js" />
-        <option value="$PROJECT_DIR$/src/mainSection.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/player.js" />
+        <option value="$PROJECT_DIR$/src/mainSection.js" />
       </list>
     </option>
   </component>
@@ -320,12 +313,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542636667769</updated>
       <workItem from="1542636668898" duration="107786000" />
-      <workItem from="1543428570602" duration="15597000" />
+      <workItem from="1543428570602" duration="15915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123383000" />
+    <option name="totallyTimeSpent" value="123701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -501,16 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="804">
@@ -562,6 +545,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="84" column="30" lean-forward="true" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
