@@ -74,12 +74,12 @@ class NextMatch extends React.Component{
                 <div className={"bar"}>NEXT MATCH</div>
                 <div>
                     <div style={{display: "flex"}}>
-                        <div style={{display: "flex", alignItems: "center", flexDirection: "column", padding: "5px", width: "30%"}}>
+                        <div className={"flex_col"} style={{ padding: "5px", width: "30%"}}>
                             <div className={"team_" + nextMatch[0].home_team_key}> </div>
                             <div className={"team"}>{nextMatch[0].event_home_team}</div>
                         </div>
                         <div className={"score"}>{nextMatch[0].event_final_result}</div>
-                        <div style={{display: "flex", alignItems: "center", flexDirection: "column", padding: "5px", width: "30%"}}>
+                        <div className={"flex_col"} style={{padding: "5px", width: "30%"}}>
                             <div className={nextMatch[0].event_away_team}> </div>
                             <div className={"team"}>{nextMatch[0].event_away_team}</div>
                         </div>

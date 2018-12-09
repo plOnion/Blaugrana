@@ -19,6 +19,14 @@
   color: #deb500;
 }
 
+.players_card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 10px;
+}
+
 .player{
   position: absolute;
   color: #fff;
@@ -142,6 +150,13 @@
   background-image: url(../src/img/2727039376.jpg);
 }
 
+.player_numb{
+  width: 20%;
+  border-right: 1px solid #eee;
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .coach{
   height: 360px;
   width: 30%;
@@ -187,6 +202,20 @@
   padding: 5px 0;
   border-radius: 5px;
   margin-bottom: 3px;
+}
+
+.player_details{
+  width: 65%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.player_details_cards{
+  margin-top: 5px;
+  width: 30%;
+  text-align: center;
 }
 
 /******************************************************************/
@@ -336,6 +365,13 @@ main {
   margin: 0 auto;
 }
 
+.natch_teams{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+}
+
 .match_bar{
   width: 50%;
 }
@@ -374,6 +410,12 @@ aside {
   align-items: center;
   width: 30%;
   justify-content: center;
+}
+
+.flex_col{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .Barcelona, .Betis, .team_7106 {

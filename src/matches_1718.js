@@ -68,23 +68,13 @@ class Matches_1718 extends React.Component{
                                 <h3 className={"bar match_bar"}>{match.league_round}</h3>
                             </div>
                             <div className={"match"}>
-                                <div style={{
-                                    display: "flex",
-                                    flexDirection: "row",
-                                    justifyContent: "center",
-                                    padding: "5px"
-                                }}>
+                                <div className={"match_teams"}>
                                     <div className={"team"}>{match.event_home_team}</div>
                                     <div className={"score"}>{match.event_final_result}</div>
                                     <div className={"team"}>{match.event_away_team}</div>
                                 </div>
                                 <br/>
-                                <div style={{
-                                    display: "flex",
-                                    flexDirection: "column",
-                                    alignItems: "center",
-                                    padding: "5px"
-                                }}>
+                                <div className={"match_more"}>
                                     <span>HALF TIME</span>
                                     <div className="score">{match.event_halftime_result}</div>
                                     <span>{match.event_date}, {match.event_time}</span><br/>

@@ -42,13 +42,7 @@ class Player extends React.Component {
                     <div style={{display: "flex", justifyContent: "space-around"}}>
                         <div className={"user_" + Player.player_key}
                              style={{width: "35%", padding: "10px", margin: "10px"}}> </div>
-                        <div style={{
-                            width: "65%",
-                            padding: "5px",
-                            display: "flex",
-                            alignItems: "center",
-                            flexDirection: "column"
-                        }}>
+                        <div className={"player_details"}>
                             <div className={"player_bar"}>NUMBER</div>
                             <div className={"player_bar_data"}>{Player.player_number}</div>
                             <div className={"player_bar"}>NAME</div>
@@ -65,15 +59,10 @@ class Player extends React.Component {
                             <div className={"player_bar_data"}>{Player.player_goals}</div>
                             <div className={"player_bar"}>CARDS</div>
                             <div style={{display: "flex", justifyContent: "space-evenly", width: "100%"}}>
-                                <div style={{
-                                    marginTop: "5px",
-                                    background: "#deb500",
-                                    width: "30%",
-                                    textAlign: "center"
-                                }}>
+                                <div className={"player_details_cards"} style={{background: "#deb500"}}>
                                     {Player.player_yellow_cards}
                                 </div>
-                                <div style={{marginTop: "5px", background: "red", width: "30%", textAlign: "center"}}>
+                                <div className={"player_details_cards"} style={{background: "red"}}>
                                     {Player.player_red_cards}
                                 </div>
                             </div>
